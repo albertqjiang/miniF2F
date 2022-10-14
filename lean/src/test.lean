@@ -724,7 +724,7 @@ theorem mathd_algebra_487
   (h₃ : c + d = 1)
   (h₄ : a ≠ c) :
   real.sqrt ((a - c)^2 + (b - d)^2)= real.sqrt 10 :=
-begin  
+begin
   sorry
 end
 
