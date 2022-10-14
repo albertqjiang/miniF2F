@@ -1808,7 +1808,7 @@ theorem mathd_algebra_332
   (x y : nnreal)
   (h₀ : (x + y) / 2 = 7)
   (h₁ : real.sqrt (x * y) = real.sqrt 19) :
-  x^2 * y^2 = 158 :=
+  x^2 + y^2 = 158 :=
 begin
   sorry
 end
