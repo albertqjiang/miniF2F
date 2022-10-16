@@ -10,8 +10,7 @@ begin
 theorem mathd_algebra_17:
   fixes a :: real
   assumes "sqrt (4 + sqrt (16 + 16 * a)) 
-    + sqrt (1 + sqrt (1 + a)) = 6"
-  and "0 \<le> 1 + a"
+    + sqrt (1 + sqrt (1 + a)) = 6" 
   shows "a = 8"
   sorry
 
